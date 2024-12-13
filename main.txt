@@ -1,0 +1,42 @@
+$multilineText =@"
+ *
+ *                        _oo0oo_
+ *                       o8888888o
+ *                       88" . "88
+ *                       (| -_- |)
+ *                       0\  =  /0
+ *                     ___/`---'\___
+ *                   .' \\|     |// '.
+ *                  / \\|||  :  |||// \
+ *                 / _||||| -:- |||||- \
+ *                |   | \\\  - /// |   |
+ *                | \_|  ''\---/''  |_/ |
+ *                \  .-\__  '-'  ___/-. /
+ *              ___'. .'  /--.--\  `. .'___
+ *           ."" '<  `.___\_<|>_/___.' >' "".
+ *          | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+ *          \  \ `_.   \_ __\ /__ _/   .-` /  /
+ *      =====`-.____`.___ \_____/___.-`___.-'=====
+ *                        `=---='
+ * 
+ * 
+ *      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 
+ *     Buddha bless, never crashes, forever bug-free.
+ *
+"@
+
+Import-Module PSReadLine
+
+Write-Host  $multilineText
+
+function blessing {
+    Write-Host "    Model converges, loss declines,"
+    Write-Host "    CUDA ample, compute shines."
+    Write-Host "    Training stable, accuracy climbs,"
+    Write-Host "    No overfitting, generalization primes."
+    Write-Host "    GPUs strong, no OOM plight,"
+    Write-Host "    SOTA achieved, a wondrous sight."
+}
+
+Set-Alias -Name /// -Value blessing
