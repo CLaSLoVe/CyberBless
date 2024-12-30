@@ -16,8 +16,13 @@ Bring some peace to your terminal with Cyber Buddha! Every time you open it, you
 3. **Add Content** 📋
    - Copy everything from `main.txt` into the profile file.
 
-4. **Save and Close** 💾
-   - Save the changes and close Notepad.
+4. **Save, Close, and Export** 💾🌟  
+   - Save the changes in Notepad and close it.  
+   - Then, run the following command in PowerShell to apply the changes immediately:  
+
+     ```powershell
+     . $PROFILE
+     ```
 
 5. **Restart Terminal** 🔄
    - Open your terminal again to see Cyber Buddha!
