@@ -2,6 +2,8 @@
 
 Bring some peace to your terminal with Cyber Buddha! Every time you open it, you'll get a blessing for your deep learning training. You can even offer incense by typing "///".
 
+<img src="screenshot.png" alt="Project Logo" width="600">
+
 ## 🚀 Setup
 
 1. **Open Terminal** 🖥️
